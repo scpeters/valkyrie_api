@@ -1,0 +1,204 @@
+/clock
+Type: rosgraph_msgs/Clock
+
+Publishers: 
+ * /gazebo (http://7ab451676ea3:35276/)
+
+Subscribers: 
+ * /rosout (http://7ab451676ea3:35172/)
+ * /gazebo (http://7ab451676ea3:35276/)
+ * /controller_manager_7ab451676ea3_1123_8115753232949804725 (http://7ab451676ea3:45298/)
+
+
+
+/force_torque_states
+Type: val_hardware_msgs/valAtiSensor
+
+Publishers: 
+ * /controller_manager_7ab451676ea3_1123_8115753232949804725 (http://7ab451676ea3:45298/)
+
+Subscribers: None
+
+
+
+/gazebo/link_states
+Type: gazebo_msgs/LinkStates
+
+Publishers: 
+ * /gazebo (http://7ab451676ea3:35276/)
+
+Subscribers: None
+
+
+
+/gazebo/model_states
+Type: gazebo_msgs/ModelStates
+
+Publishers: 
+ * /gazebo (http://7ab451676ea3:35276/)
+
+Subscribers: None
+
+
+
+/gazebo/parameter_descriptions
+Type: dynamic_reconfigure/ConfigDescription
+
+Publishers: 
+ * /gazebo (http://7ab451676ea3:35276/)
+
+Subscribers: None
+
+
+
+/gazebo/parameter_updates
+Type: dynamic_reconfigure/Config
+
+Publishers: 
+ * /gazebo (http://7ab451676ea3:35276/)
+
+Subscribers: None
+
+
+
+/gazebo/set_link_state
+Type: gazebo_msgs/LinkState
+
+Publishers: None
+
+Subscribers: 
+ * /gazebo (http://7ab451676ea3:35276/)
+
+
+
+/gazebo/set_model_state
+Type: gazebo_msgs/ModelState
+
+Publishers: None
+
+Subscribers: 
+ * /gazebo (http://7ab451676ea3:35276/)
+
+
+
+/hardware_joint_commands
+Type: sensor_msgs/JointState
+
+Publishers: 
+ * /controller_manager_7ab451676ea3_1123_8115753232949804725 (http://7ab451676ea3:45298/)
+
+Subscribers: None
+
+
+
+/hardware_joint_states
+Type: sensor_msgs/JointState
+
+Publishers: 
+ * /controller_manager_7ab451676ea3_1123_8115753232949804725 (http://7ab451676ea3:45298/)
+
+Subscribers: None
+
+
+
+/imu_states
+Type: val_hardware_msgs/valImuSensor
+
+Publishers: 
+ * /controller_manager_7ab451676ea3_1123_8115753232949804725 (http://7ab451676ea3:45298/)
+
+Subscribers: None
+
+
+
+/leftTorsoImu/imu
+Type: sensor_msgs/Imu
+
+Publishers: 
+ * /gazebo (http://7ab451676ea3:35276/)
+
+Subscribers: None
+
+
+
+/pelvisMiddleImu/imu
+Type: sensor_msgs/Imu
+
+Publishers: 
+ * /gazebo (http://7ab451676ea3:35276/)
+
+Subscribers: None
+
+
+
+/pelvisRearImu/imu
+Type: sensor_msgs/Imu
+
+Publishers: 
+ * /gazebo (http://7ab451676ea3:35276/)
+
+Subscribers: None
+
+
+
+/rosout
+Type: rosgraph_msgs/Log
+
+Publishers: 
+ * /gazebo (http://7ab451676ea3:35276/)
+ * /controller_manager_7ab451676ea3_1123_8115753232949804725 (http://7ab451676ea3:45298/)
+
+Subscribers: 
+ * /rosout (http://7ab451676ea3:35172/)
+
+
+
+/rosout_agg
+Type: rosgraph_msgs/Log
+
+Publishers: 
+ * /rosout (http://7ab451676ea3:35172/)
+
+Subscribers: None
+
+
+
+/rtt_period_overflow
+Type: std_msgs/Float64
+
+Publishers: 
+ * /controller_manager_7ab451676ea3_1123_8115753232949804725 (http://7ab451676ea3:45298/)
+
+Subscribers: None
+
+
+
+/rtt_rate
+Type: std_msgs/Float64
+
+Publishers: 
+ * /controller_manager_7ab451676ea3_1123_8115753232949804725 (http://7ab451676ea3:45298/)
+
+Subscribers: None
+
+
+
+/valkyrie/harness/detach
+Type: std_msgs/Bool
+
+Publishers: None
+
+Subscribers: 
+ * /gazebo (http://7ab451676ea3:35276/)
+
+
+
+/valkyrie/harness/velocity
+Type: std_msgs/Float32
+
+Publishers: None
+
+Subscribers: 
+ * /gazebo (http://7ab451676ea3:35276/)
+
+
