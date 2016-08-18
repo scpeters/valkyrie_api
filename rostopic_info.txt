@@ -8,6 +8,7 @@ Subscribers:
  * /rosout (http://7ab451676ea3:35172/)
  * /gazebo (http://7ab451676ea3:35276/)
  * /controller_manager_7ab451676ea3_1123_8115753232949804725 (http://7ab451676ea3:45298/)
+ * /controller_spawner_7ab451676ea3_1996_8167084144920472494 (http://7ab451676ea3:37412/)
 
 
 
@@ -147,6 +148,7 @@ Type: rosgraph_msgs/Log
 Publishers: 
  * /gazebo (http://7ab451676ea3:35276/)
  * /controller_manager_7ab451676ea3_1123_8115753232949804725 (http://7ab451676ea3:45298/)
+ * /controller_spawner_7ab451676ea3_1996_8167084144920472494 (http://7ab451676ea3:37412/)
 
 Subscribers: 
  * /rosout (http://7ab451676ea3:35172/)

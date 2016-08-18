@@ -1,1 +1,7 @@
-controller: []
+controller: 
+  - 
+    name: ihmc_valkyrie_control_java_bridge
+    state: running
+    type: ihmc_ros_control/IHMCWholeRobotControlJavaBridge
+    hardware_interface: hardware_interface::EffortJointInterface
+    resources: ['leftAnklePitch', 'leftAnkleRoll', 'leftElbowPitch', 'leftHipPitch', 'leftHipRoll', 'leftHipYaw', 'leftKneePitch', 'leftShoulderPitch', 'leftShoulderRoll', 'leftShoulderYaw', 'rightAnklePitch', 'rightAnkleRoll', 'rightElbowPitch', 'rightHipPitch', 'rightHipRoll', 'rightHipYaw', 'rightKneePitch', 'rightShoulderPitch', 'rightShoulderRoll', 'rightShoulderYaw', 'torsoPitch', 'torsoRoll', 'torsoYaw']
