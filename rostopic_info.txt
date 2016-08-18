@@ -9,6 +9,10 @@ Subscribers:
  * /gazebo (http://7ab451676ea3:35276/)
  * /controller_manager_7ab451676ea3_1123_8115753232949804725 (http://7ab451676ea3:45298/)
  * /controller_spawner_7ab451676ea3_1996_8167084144920472494 (http://7ab451676ea3:37412/)
+ * /robot_state_publisher (http://7ab451676ea3:36234/)
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+ * /ihmc_ros/valkyrie/robot_data (http://127.0.0.1:36750/)
 
 
 
@@ -102,6 +106,467 @@ Subscribers: None
 
 
 
+/ihmc_ros/localization/pelvis_odom_pose_correction
+Type: nav_msgs/Odometry
+
+Publishers: None
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/localization/pelvis_pose_correction
+Type: geometry_msgs/PoseStamped
+
+Publishers: None
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/abort_walking
+Type: ihmc_msgs/AbortWalkingRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/arm_desired_joint_accelerations
+Type: ihmc_msgs/ArmDesiredAccelerationsRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/arm_trajectory
+Type: ihmc_msgs/ArmTrajectoryRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/chest_trajectory
+Type: ihmc_msgs/ChestTrajectoryRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/end_effector_load_bearing
+Type: ihmc_msgs/EndEffectorLoadBearingRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/foot_trajectory
+Type: ihmc_msgs/FootTrajectoryRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/footstep_list
+Type: ihmc_msgs/FootstepDataListRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/go_home
+Type: ihmc_msgs/GoHomeRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/hand_desired_configuration
+Type: ihmc_msgs/HandDesiredConfigurationRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/hand_trajectory
+Type: ihmc_msgs/HandTrajectoryRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/head_trajectory
+Type: ihmc_msgs/HeadTrajectoryRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/high_level_state
+Type: ihmc_msgs/HighLevelStateRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/low_level_control_mode
+Type: ihmc_valkyrie_ros/ValkyrieLowLevelControlModeRosMessage
+
+Publishers: None
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/neck_desired_acceleration
+Type: ihmc_msgs/NeckDesiredAccelerationsRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/neck_trajectory
+Type: ihmc_msgs/NeckTrajectoryRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/pause_walking
+Type: ihmc_msgs/PauseWalkingRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/pelvis_height_trajectory
+Type: ihmc_msgs/PelvisHeightTrajectoryRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/pelvis_orientation_trajectory
+Type: ihmc_msgs/PelvisOrientationTrajectoryRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/pelvis_trajectory
+Type: ihmc_msgs/PelvisTrajectoryRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/request_stop
+Type: std_msgs/Empty
+
+Publishers: None
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/stop_all_trajectories
+Type: ihmc_msgs/StopAllTrajectoryRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/control/whole_body_trajectory
+Type: ihmc_msgs/WholeBodyTrajectoryRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+
+Subscribers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+
+
+/ihmc_ros/valkyrie/output/behavior
+Type: std_msgs/Int32
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/capturability/capture_point
+Type: ihmc_msgs/Point2dRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/capturability/center_of_mass
+Type: geometry_msgs/Point32
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/capturability/desired_capture_point
+Type: ihmc_msgs/Point2dRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/capturability/is_in_double_support
+Type: std_msgs/Bool
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/capturability/left_foot_support_polygon
+Type: ihmc_msgs/SupportPolygonRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/capturability/right_foot_support_polygon
+Type: ihmc_msgs/SupportPolygonRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/foot_force_sensor/left
+Type: geometry_msgs/WrenchStamped
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/foot_force_sensor/right
+Type: geometry_msgs/WrenchStamped
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/footstep_status
+Type: ihmc_msgs/FootstepStatusRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/high_level_state
+Type: ihmc_msgs/HighLevelStateRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/high_level_state_change
+Type: ihmc_msgs/HighLevelStateChangeStatusRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/imu/pelvis_pelvisMiddleImu
+Type: sensor_msgs/Imu
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/imu/pelvis_pelvisRearImu
+Type: sensor_msgs/Imu
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/imu/torso_leftTorsoImu
+Type: sensor_msgs/Imu
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/imu/upperNeckPitchLink_head_imu_sensor
+Type: sensor_msgs/Imu
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/joint_states
+Type: sensor_msgs/JointState
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: 
+ * /robot_state_publisher (http://7ab451676ea3:36234/)
+
+
+
+/ihmc_ros/valkyrie/output/robot_motion_status
+Type: std_msgs/String
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/robot_pose
+Type: nav_msgs/Odometry
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/ihmc_ros/valkyrie/output/walking_status
+Type: ihmc_msgs/WalkingStatusRosMessage
+
+Publishers: 
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
 /imu_states
 Type: val_hardware_msgs/valImuSensor
 
@@ -149,6 +614,10 @@ Publishers:
  * /gazebo (http://7ab451676ea3:35276/)
  * /controller_manager_7ab451676ea3_1123_8115753232949804725 (http://7ab451676ea3:45298/)
  * /controller_spawner_7ab451676ea3_1996_8167084144920472494 (http://7ab451676ea3:37412/)
+ * /robot_state_publisher (http://7ab451676ea3:36234/)
+ * /ihmc_ros/valkyrie (http://127.0.0.1:42207/)
+ * /ihmc_ros/valkyrie/robot_data (http://127.0.0.1:36750/)
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
 
 Subscribers: 
  * /rosout (http://7ab451676ea3:35172/)
@@ -180,6 +649,27 @@ Type: std_msgs/Float64
 
 Publishers: 
  * /controller_manager_7ab451676ea3_1123_8115753232949804725 (http://7ab451676ea3:45298/)
+
+Subscribers: None
+
+
+
+/tf
+Type: tf2_msgs/TFMessage
+
+Publishers: 
+ * /robot_state_publisher (http://7ab451676ea3:36234/)
+ * /ihmc_ros/valkyrie/controller (http://127.0.0.1:45023/)
+
+Subscribers: None
+
+
+
+/tf_static
+Type: tf2_msgs/TFMessage
+
+Publishers: 
+ * /robot_state_publisher (http://7ab451676ea3:36234/)
 
 Subscribers: None
 
